@@ -33,7 +33,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := exynos7870-a6lte_defconfig
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/samsung/a6lte
+TARGET_KERNEL_SOURCE := kernel/samsung/j7xelte
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
@@ -43,7 +43,7 @@ TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
-BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/a6lte/bootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/j7xelte/bootimg.mk
 
 
 # TWRP specific build flags
@@ -78,7 +78,7 @@ TARGET_USES_LOGD := true
 TWRP_EVENT_LOGGING := false
 
 # Custom version
-TW_DEVICE_VERSION := A6-2018
+TW_DEVICE_VERSION := j7-2016
 
 # Charger/Healthd
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charging
